@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+</head>
+<style>
+    /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  height: 70vh;
+}
+header{
+    height: 50px;
+    width: 100%;
+     background-color: black;
+     padding: 10px 10px;
+}
+h1{
+    text-align: center;
+   color: white;
+    
+}
+/* skills */
+.container{
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(49, 49, 50);
+  /* box-sizing: border-box; */
+}
+
+.div2 {
+  width: 300px;
+  height: 200px;  
+  /* padding: 50px; */
+  border: 1px solid rgb(39, 37, 37);
+  /* box-sizing: border-box; */
+}
+
+.div3{
+    width: 300px;
+  height: 200px;  
+  /* padding: 50px; */
+  border: 1px solid rgb(20, 19, 19);
+  /* box-sizing: border-box; */
+}
+
+.div4{
+    width: 300px;
+  height: 200px;  
+  /* padding: 50px; */
+  border: 1px solid rgb(16, 15, 15);
+  /* box-sizing: border-box; */
+}
+/* .div1,.div2,.div3,.div4, */
+
+.container:hover{
+  filter: drop-shadow(1px 1px 2px black);
+  transition: 1s ease-in-out;
+  
+}
+
+
+
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    border: 4px dotted  #20bcd5;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+li {
+    
+    margin: 10px;
+}
+
+progress {
+    width: 100%;
+    border-radius: 20px;
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both; 
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    }
+progress::-webkit-progress-bar {
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(124, 117, 117);
+}
+progress::-webkit-progress-value {
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both; 
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+} 
+
+@keyframes progressBar {
+        0% { width: 0; }
+        100% { width: 100%; }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+</style>
+<body>
+
+    <header>
+        <h1>About me </h1>
+    </header>
+
+ <div class="container">
+    <div class="div1">
+        <h2>I am passionate on</h2>
+    <ul>
+        <li>Web development</li>
+        <li>Video editing</li>
+        <li>Graphic desigin</li>
+        <li>Good communication</li>
+    </ul>
+    </div>
+
+<div class="div2">
+    <h2>My hobbies</h2>
+    <ul>
+        <li>Singing and Dancing</li>
+        <li>Coding and Desigining</li>
+        <li>Playing Volleyball</li>
+        <li>Exploring Tecnology</li>
+    </ul>
+</div>
+</div>
+<hr color="orange" size="2px">
+<div class="container">
+   
+<div class="div3">
+    <h2>My studies</h2>
+    <ul>
+        <li>I passed SEE from</li>
+        <a href="https://www.facebook.com/mahendra.mavi.waling5/photos/?paipv=0&eav=AfboqyMVUbsAYs37bbt1LeBONRZwnJM5E4Bl8eq0vuHCg1uSuRcYLI_Yt-1X00VgTNo&_rdr"><li> Mahendra Secondary School</li> </a>
+        <li> Now I am studing</li>
+        <a href="https://www.facebook.com/p/Pioneers-Higher-Education-Academy-100082865246326/"><li>Pioneers Higher EducationAcademy </li></a>
+       
+    </ul>
+</div><br>
+<div class="div4">
+    <h2>My Personal Details</h2>
+    <ul>
+        <li>Temporary Location- Waling-8, Bagalthok</li>
+        <li>Pernament Location- Waling-5 Jagat Bhyangjan, Badahare</li>
+        <li>Studying- +2(Computer science)</li>
+        <li>Mind Set- Positive</li>
+    </ul>
+</div><br> 
+</div><br>
+<br><hr color="blue" size="3px">
+<h1><span>My Skills chart </span></h1>
+<ul>
+    <li>HTML<br><progress min="0" max="100" value="95"></progress></li>
+    <li>CSS<br><progress min="0" max="100" value="90"></progress></li>
+    <li>COMMUNUCATION<br><progress min="0" max="100" value="85"></progress></li>
+    <li>SINGING<br><progress min="0" max="100" value="75"></progress></li>
+    <li>DANCING<br><progress min="0" max="100" value="65"></progress></li>
+    <li>GRAPHIC DESIGN<br><progress min="0" max="100" value="20"></progress></li>
+    <li>VIDEO EDITING<br><progress min="0" max="100" value="30"></progress></li>
+</ul>   
+  
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
+
+    
+</body>
+</html>

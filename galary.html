@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galary</title>
+    <style>
+        body{
+            height: 150vh;
+            width: 175%;
+            
+        }
+        header{
+            background-color: black;
+            height: 40px;
+            width: 100%;
+        }
+        main{
+            height: 150vh;
+            width: 175%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 30px;
+            margin-left: 23%;
+            color: white;
+        }
+        h1:hover{
+            
+            font-weight: bold;
+            font-size: 29px;
+            filter: drop-shadow(10px 10px 20px black);
+        }
+        .container{
+            display: flex;
+            box-sizing: border-box;
+            margin-left: 14%;
+            /* text-align: center; */
+            /* justify-content: center;
+            align-items: center; */
+        }
+        img{
+            height: 400px;
+            width: 230px;
+            padding: 3px 16px;
+            
+          
+                        }
+        img:hover{
+                           filter: drop-shadow(10px 10px 20px black);
+                           height: 410px;
+                           width: 235px;
+                        }
+       
+       footer{
+          background-color: black;
+            text-align: center;
+       }     
+                   h2{
+           
+            color: white;
+        }
+        @media only screen and (max-width:414px) {
+            body{
+            height: 70vh;
+            width: 50%;
+            
+        }
+        header{
+            background-color: black;
+            height: 50px;
+            width: 100%;
+        }
+        main{
+            height: 70vh;
+            width: 50%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 25px;
+            margin-left: 13%;
+            color: white;
+            text-align: center;
+        }
+        h1:hover{
+            
+            font-weight: bold;
+            font-size: 24px;
+            filter: drop-shadow(10px 10px 20px black);
+        }
+        .container{
+            display: flex;
+            box-sizing: border-box;
+            margin-left: 4%;
+            /* text-align: center; */
+            /* justify-content: center;
+            align-items: center; */
+        }
+        img{
+            height: 190px;
+            width: 100px;
+            padding: 3px 16px;
+            
+          
+                        }
+        img:hover{
+                           filter: drop-shadow(10px 10px 20px black);
+                           height: 200px;
+                           width: 110px;
+                        }
+       
+       footer{
+          background-color: black;
+            text-align: center;
+       }     
+                   h2{
+           
+            color: white;
+        }
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+      <header>
+        <h1>My photos</h1>
+      </header> 
+       <br><br>
+    <div class="container">
+        <div class="im-box">
+            <img src="photolab.png" alt="">
+        </div>
+        <div class="im-box"><img src="1.jpeg" alt="">
+        </div>
+        <div class="im-box"><img src="2.jpg" alt=""></div>
+    </div> 
+    <!-- next container -->
+        <br>
+        <div class="container">
+          <div class="im-box"><img src="11.jpg" alt=""></div>
+        <div class="im-box"><img src="4.jpeg" alt=""></div>
+        <div class="im-box"><img src="5.jpeg" alt=""></div>
+        </div><br>
+        <div class="container">
+          <div class="img-box"><img src="6.jpeg" alt=""></div>
+          <div class="img-box"><img src="7.jpeg" alt=""></div>
+          <div class="img-box"><img src="8.jpg" alt=""></div>
+        </div>                   
+    </div>
+    <!-- <hr color="black" size="3px"> -->
+    <footer>
+        <h2>@2024 Copyright Legal</h2>
+    </footer>
+
+</body>
+</html>
